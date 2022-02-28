@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import TopTotales from './components/TopTotales/TopTotales'; 
+import LastProduct from './components/LastProduct/LastProduct';
+import LastUser from './components/LastUser.js/LastUser';
+import Categorias from './components/Categorias/Categorias';
+import TopGogers from './components/Gogers/TopGogers'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopTotales />
+
+      <LastProduct />
+
+      <LastUser />
+
+      <Categorias />
+
+      <TopGogers />
     </div>
   );
 }

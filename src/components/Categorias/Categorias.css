@@ -1,0 +1,24 @@
+.categorias{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-categorias{
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 36px;
+    padding-top: -10px;
+}
+
+.title-categorias h2{
+    margin: 0px;
+    padding: 0px;
+    color: #14213d;
+}
+
+.bloque-fichas{
+    display: flex;
+    justify-content: center;
+}
