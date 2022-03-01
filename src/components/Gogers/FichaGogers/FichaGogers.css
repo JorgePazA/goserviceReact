@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  /* padding: 3px; */
+}
+
+.gogers {
+  font-size: 16px;
+  max-width: 300px;
+  min-height: 0px;
+  border: solid 2px #fca311;
+  border-radius: 10px;
+  /* display: flex; */
+  margin: auto;
+  background-color: #14213d;
+  margin-bottom: 10px;
+}
+
+.goger-image {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  max-height: 250px;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+
+.goger-feature {
+  text-align: center;
+}

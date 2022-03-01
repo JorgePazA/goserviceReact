@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.my-app {
+  background-color: rgb(230, 230, 230);
+}
+
+h1.api-title {
+  color: #14213d;
+  text-align: center;
+  margin: 0px;
+}
