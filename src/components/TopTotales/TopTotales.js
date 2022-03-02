@@ -1,13 +1,15 @@
 import React from 'react'
-import FichaResumen from './FichaResumen/FichaResumen'
+import FichaResumenUsuarios from './FichaResumen/FichaResumenUsuarios'
+import FichaResumenGogers from './FichaResumen/FichaResumenGogers'
+import FichaResumenCategories from './FichaResumen/FichaResumenCategories'
 import './TopTotales.css'
 
 function TopTotales (){
     return(
         <div className='top-totales'>
-            <FichaResumen />
-            <FichaResumen />
-            <FichaResumen />
+            <FichaResumenGogers />
+            <FichaResumenUsuarios />
+            <FichaResumenCategories />
         </div>
     )
 }

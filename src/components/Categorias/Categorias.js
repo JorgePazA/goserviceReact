@@ -1,5 +1,7 @@
 import React from 'react'
-import FichaCategorias from './FichaCategorias/FichaCategorias'
+import FichaCategoriasPlomeria from './FichaCategorias/FichaCategoriasPlomeria'
+import FichaCategoriasElectricidad from './FichaCategorias/FichaCategoriasElectricidad'
+import FichaCategoriasAseo from './FichaCategorias/FichaCategoriasAseo'
 import './Categorias.css'
 
 function Categorias (){
@@ -10,9 +12,9 @@ function Categorias (){
                     <h2>Categorías</h2>
                 </div>
                 <div className = 'bloque-fichas'>
-                    <FichaCategorias />
-                    <FichaCategorias />
-                    <FichaCategorias />
+                    <FichaCategoriasPlomeria />
+                    <FichaCategoriasElectricidad />
+                    <FichaCategoriasAseo />
                 </div>
             </div>
         </div>
