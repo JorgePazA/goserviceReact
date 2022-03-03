@@ -1,0 +1,60 @@
+.cont-ficha-resumen{
+    display: flex;
+    width: 16vw;
+    height: 35vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 16px;
+    background-color: #fca311;
+    margin: 20px;
+    transition: all .4s ease-in-out ;
+}
+
+.cont-ficha-resumen:hover {
+-webkit-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
+-moz-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
+box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
+}
+
+.users {
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, 
+    rgb(0 0 0 / 2%) 0px 10px;
+}
+
+.cont-ficha-resumen .total {
+    padding: 5px 50px;
+    background: #aa7116;
+    border-radius: 2rem;
+}
+
+.cont-ficha-resumen .total-users {
+    padding: 5px 50px;
+    background: #14213d;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+
+.fr-izq{
+    font-size: 25px;
+    margin: 5px;
+    color: #14213d;
+    font-weight: bold;
+}
+
+.fr-der{
+    font-size: 20px;
+    margin: 5px;
+    color: #14213d;
+}
+
+.gogersTitle {
+    color: #ffffff;
+}
+
+.icon {
+    color: #14213d;
+    font-size: 60px;
+}

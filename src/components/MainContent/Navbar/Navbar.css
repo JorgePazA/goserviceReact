@@ -1,0 +1,9 @@
+.title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+.title b {
+    color: #14213d;
+}

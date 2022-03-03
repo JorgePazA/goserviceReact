@@ -29,6 +29,7 @@ function TopGogers() {
           return <FichaGogers
             image={singleGoger.image}
             name={singleGoger.name}
+            category={singleGoger.category}
             key={singleGoger.id + i}
           />
         })}
