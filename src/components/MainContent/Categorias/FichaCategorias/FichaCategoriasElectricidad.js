@@ -18,9 +18,9 @@ function FichaCategoriasElectricidad() {
     }, [])
 
     return (
-        <div className = "cont-ficha-resumen">
-                <p className='fr-izq'>Electricidad</p>
-                <p className='fr-der'>{electricistas.electricidad}</p>
+        <div className = "cont-categories electricidad">
+                <p className='category-izq'>Electricidad</p>
+                <p className='category-der elec'>{electricistas.electricidad}</p>
         </div>
     )
 }

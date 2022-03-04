@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  padding: 3px;
+}
+
+.cont-categories {
+  display: flex;
+  width: 20vw;
+  height: 30vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+.category-izq,
+.category-der {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.plomer {
+  padding: 5px 50px;
+  background: rgb(10, 20, 41);
+  border-radius: 2rem;
+}
+
+.elec {
+  padding: 5px 50px;
+  background: #aa7116;
+  border-radius: 2rem;
+}
+
+.ase {
+  padding: 5px 50px;
+  background: #b4b4b4;
+  border-radius: 2rem;
+}
+
+.plomeria {
+  background: #14213d;
+  color: #ffffff;
+  border-radius: 1rem;
+}
+
+.electricidad {
+  background: #fca311;
+  color: #ffffff;
+  border-radius: 1rem;
+}
+
+.aseo {
+  background-color: #ffffff;
+  color: #14213d;
+  border-radius: 1rem;
+}
+
+.cont-categories:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+}
+/* width: 25vw; */

@@ -18,9 +18,9 @@ function FichaCategoriasPlomeria() {
     }, [])
 
     return (
-        <div className = "cont-ficha-resumen">
-                <p className='fr-izq'>Plomeria</p>
-                <p className='fr-der'>{plomeros.plomeria}</p>
+        <div className = "cont-categories plomeria">
+                <p className='category-izq'>Plomeria</p>
+                <p className='category-der plomer'>{plomeros.plomeria}</p>
         </div>
     )
 }

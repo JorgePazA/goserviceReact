@@ -18,9 +18,9 @@ function FichaCategoriasAseo() {
     }, [])
 
     return (
-        <div className = "cont-ficha-resumen">
-                <p className='fr-izq'>Aseo</p>
-                <p className='fr-der'>{aseadores.aseo}</p>
+        <div className = "cont-categories aseo">
+                <p className='category-izq'>Aseo</p>
+                <p className='category-der ase'>{aseadores.aseo}</p>
         </div>
     )
 }

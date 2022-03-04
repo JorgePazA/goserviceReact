@@ -1,14 +1,29 @@
-.main-content{
-    display: flex;
-    width: 75%;
-    margin-left: 3%
+.main-content {
+  display: flex;
+  width: 75%;
+  margin-left: 3%;
 }
 
-.navbar{
-    justify-content: space-between;
-    align-items: center;
-    height: 5%;
-    width: 75%;
-    margin-left: 5%;
-    margin-bottom: 10px;
-  }
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 75%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
+.content-categories {
+  display: flex;
+  width: 40.5%;
+  margin-left: 3%;
+}
+
+.content-lastProduct {
+  display: flex;
+  width: 31.2vw;
+}
+
+.content-second {
+  display: flex;
+}

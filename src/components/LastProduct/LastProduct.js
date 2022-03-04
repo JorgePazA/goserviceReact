@@ -24,19 +24,26 @@ function LastProduct() {
 
 
     return (
-        <div className="App">
-            <section className="detail">
-                <div className='title'>
-                    <h1 className='lastTitle'>Último goger creado</h1>
+        <div className="last-goger">
+            <div className='content-sup-goger'>
+                <div className="izq-content-last-goger">
+                    <div className='title'>
+                        <p className='lastTitle-goger'>Último goger creado</p>
+                    </div>
+                    <div className='text'>
+                        <p className='text-pd-goger'><b>Nombre:</b> {products.nameLast}</p>
+                    </div>
+                    <div>
+                        <p className='text-pd-goger'><b>Experiencia:</b> {products.experienceLast}</p>
+                    </div>
                 </div>
-                <div className='img-cont'>
-                    <img className='lastCreated' src={products.imageLast} alt='Last' />
-
-                    <p className='text-pd'><b>Nombre:</b> {products.nameLast}</p>
-                    <p className='text-pd'><b>Descripcion:</b> {products.descriptionLast}</p>
-                    <p className='text-pd'><b>Experiencia:</b> {products.experienceLast}</p>
-                </div>
-            </section>
+                <div className='detail'>
+                    <div className='img-cont-goger'>
+                        <img className='lastCreated-goger' src={products.imageLast} alt='Last' />
+                    </div>
+                </div>      
+            </div>
+                    {/* <p className='text-pd'><b>Descripcion:</b> {products.descriptionLast}</p> */}
         </div>
     )
 }

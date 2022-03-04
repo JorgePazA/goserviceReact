@@ -25,18 +25,24 @@ function LastUser() {
 
     return (
         <div className="last-user">
-                <div className='title'>
-                    <p className='lastTitle'>Último usuario creado</p>
+            <div className='content-sup'>
+                <div className='izq-content-last-user'>
+                    <div className='title'>
+                        <p className='lastTitle'>Último<br/>usuario<br/>creado</p>
+                    </div>
+                    <div className='text'>
+                        <p className='text-pd'><b>Nombre<br/></b>{users.nameLast}</p>
+                    </div>
                 </div>
-            <section className="detail">
-                <div className='img-cont'>
-                    <img className='lastCreated' src={users.imageLast} alt='Last' />
+                <div className="detail">
+                    <div className='img-cont'>
+                        <img className='lastCreated' src={users.imageLast} alt='Last' />
+                    </div>
                 </div>
-                <div className='text'>
-                    <p className='text-pd'><b>Nombre:</b> {users.nameLast}</p>
-                    <p className='text-pd'><b>Email:</b> {users.emailLast}</p>
-                </div>
-            </section>
+            </div>
+            <div className='email'>                   
+                <p className='text-pd-email'><b>Email:</b> {users.emailLast}</p>
+            </div>
         </div>
     )
 }

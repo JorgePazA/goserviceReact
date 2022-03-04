@@ -1,58 +1,71 @@
+.last-user {
+  display: flex;
+  width: 50vw;
+  height: 36vh;
+  background: #14213d;
+  margin: 22px 30px;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.4s ease-in-out;
+}
+.content-sup {
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+}
+.izq-content-last-user {
+  width: 15vw;
+}
 .lastTitle {
-  color: #14213d;
-  font-size: 25px;
-  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+  margin: 0;
   font-weight: bold;
-  margin-bottom: 22px;
-}
-
-.detail {
-    display: flex;
-    margin: auto;
-    width: 30vw;
-    height: 28.5vh;
-    text-align: center;
-    background: #14213d;
-    margin: 10px 30px;
-    border-radius: 16px;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    transition: all .4s ease-in-out ;
-}
-
-.detail:hover {
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
-  box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
-  }
-
-.text {
+  margin-bottom: 0px;
   text-align: left;
 }
 
-.text-pd {
-  margin-left: 20px;
-  font-size: 20px;
+.lastCreated {
+  width: 90%;
+  height: 80%;
+  border-radius: 8px;
 }
 
-.text-pd b {
-    display: block;
-    color: #fca311;
-  }
+.last-user:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+}
 
 .text-pd {
   color: #ffffff;
-  margin-left: 10px;
+  margin-left: 0px;
+  font-size: 18px;
   text-align: left;
+  margin-top: 0px;
+}
+
+.text-pd b,
+.text-pd-email b {
+  color: #fca311;
+  font-size: 20px;
 }
 
 .img-cont {
-    margin-right: 25px;
-  }
+  height: 140%;
+}
 
-.lastCreated {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 0;
-  }
+.email {
+  align-self: flex-start;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.text-pd-email {
+  color: #ffffff;
+  margin-left: 0px;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 0px;
+}

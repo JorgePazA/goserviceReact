@@ -6,8 +6,7 @@ import './Categorias.css'
 
 function Categorias (){
     return(
-        <div>
-            <div className='categorias'>
+        <div className='categorias'>
                 <div className = 'title-categorias'>
                     <h2>Categorías</h2>
                 </div>
@@ -15,7 +14,6 @@ function Categorias (){
                     <FichaCategoriasPlomeria />
                     <FichaCategoriasElectricidad />
                     <FichaCategoriasAseo />
-                </div>
             </div>
         </div>
     )

@@ -1,33 +1,58 @@
-/* .lastCreated {
-    width: 200px;
+.last-goger {
+  display: flex;
+  width: 40vw;
+  height: 30vh;
+  background: #14213d;
+  margin: 67px 30px 0 30px;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.4s ease-in-out;
+}
+.content-sup-goger {
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+}
+.izq-content-last-goger {
+  width: 15vw;
+}
+.lastTitle-goger {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: left;
 }
 
-.detail {
-    display: flex;
-    margin: auto;
-    max-width: 300px;
-    text-align: center;
-    background: #14213d;
-    margin: 10px 30px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    border: outset #fca311 2px;
-    border-radius: 10px;
-    flex-direction: column;
+.lastCreated-goger {
+  width: 90%;
+  height: 80%;
+  border-radius: 8px;
 }
 
-.text-pd b, p, .lastTitle {
-    color: #fca311;
-  }
+.last-goger:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+  box-shadow: 0px 0px 30px 0px rgba(87, 82, 87, 1);
+}
 
-main .img-cont {
-    display: block;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 0;
-  }
+.text-pd-goger {
+  color: #ffffff;
+  margin-left: 0px;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 0px;
+}
 
-main .img-cont img {
-    width: 100%;
-    border-radius: 10px;
-  } */
+.text-pd-goger b {
+  color: #fca311;
+  font-size: 20px;
+}
+
+.img-cont-goger {
+  height: 120%;
+  margin-top: 20px;
+}
