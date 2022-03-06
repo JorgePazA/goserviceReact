@@ -1,17 +1,15 @@
 import './App.css';
-import SideBar from './components/SideBar/SideBar';
-import MainContent from './components/MainContent/MainContent';
-import Gogers from './components/Gogers/TopGogers';
-import {Route, Routes} from 'react-router-dom';
+import Metricas from './components/Metricas/Metricas'
+import { Route, Routes } from 'react-router-dom';
+import GogersContent from './components/GogersContent/GogersContent';
 
 function App() {
   return (
     <div className='my-app'>
       <div className='content'>
         <Routes>
-          <Route path="/" element={<SideBar/>}/>
-          <Route path="/MainContent" element={<MainContent />} />
-          <Route path="/gogers" element ={<Gogers />} />
+          <Route path="/" element={<Metricas />} />
+          <Route path="/gogers" element={<GogersContent />} />
         </Routes>
       </div>
     </div>

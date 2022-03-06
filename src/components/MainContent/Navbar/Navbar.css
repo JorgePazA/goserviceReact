@@ -1,9 +1,10 @@
 .title {
-    font-size: 30px;
-    font-weight: 500;
-    color: #000000;
-  }
+  font-size: 30px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 0px;
+}
 
 .title b {
-    color: #14213d;
+  color: #14213d;
 }
