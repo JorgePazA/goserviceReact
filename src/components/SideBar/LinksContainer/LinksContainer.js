@@ -16,6 +16,10 @@ function LinksContainer() {
           <RiFileCopyLine />
           <Link to="/gogers">Gogers</Link>
         </div>
+        <div className="projects">
+          <RiFileCopyLine />
+          <Link to="/users">Usuarios</Link>
+        </div>
         {/* <div className="projects">
             <RiFileCopyLine />
             <Link to="/MainContent">Metricas</Link>

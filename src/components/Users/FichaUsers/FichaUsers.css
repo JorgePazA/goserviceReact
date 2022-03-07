@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  color: #fca311;
+}
+th,
+.table tr th{
+  width: 25%;
+  text-align: center;
+  border: 1px solid #fca311;
+  background-color: #14213d;
+  height: 30px;
+  color: aliceblue;
+}

@@ -1,0 +1,22 @@
+.gogers-title h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 70px;
+    padding: 0px;
+    color: #14213d;
+    align-items: center;
+  }
+
+  .tableUsuarios {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fca311;
+  }
+  th,
+  td {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #fca311;
+    background-color: #14213d;
+    height: 30px;
+  }
