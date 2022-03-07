@@ -1,4 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
 * {
   font-family: "Mulish", sans-serif;
@@ -6,29 +6,32 @@
 }
 
 .gogers {
-  font-size: 16px;
-  max-width: 300px;
-  min-height: 0px;
-  border: solid 2px #fca311;
   border-radius: 10px;
-   display: flex; 
+  display: flex; 
   margin: auto;
   background-color: #14213d;
+  margin-top: 10px;
   margin-bottom: 10px;
+  transition: all .4s ease-in-out ;
+}
+
+.gogers:hover {
+-webkit-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
+-moz-box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
+box-shadow: 0px 0px 30px 0px rgba(87,82,87,1);
 }
 
 .goger-image {
-  display: block;
-  max-width: 80%;
-  margin: auto;
-  margin-top: 10px;
-  overflow: hidden;
-  max-height: 250px;
-  border: solid white 1px;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
   border-radius: 10px;
 }
 
-.goger-feature {
+.goger-container {
+  width: 280px;
+  height: 280px;
   text-align: center;
+  font-size: 18px;
+  color: #ffffff;
 }
-*/

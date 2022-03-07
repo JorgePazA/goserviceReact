@@ -12,4 +12,4 @@ function GogersContent() {
     )
 }
 
-export default GogersContent
+export default GogersContent;

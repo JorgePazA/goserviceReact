@@ -1,7 +1,12 @@
-.gogers-title h1 {
+.gogers-title-page {
   font-size: 24px;
   text-align: center;
   margin: 0px;
   padding: 0px;
   color: #14213d;
+}
+
+.ficha-goger {
+  display: flex;
+  flex-wrap: wrap;
 }

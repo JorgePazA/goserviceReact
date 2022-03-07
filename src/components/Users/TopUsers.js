@@ -20,8 +20,8 @@ function TopUsers() {
   }, [])
 
   return (
-    <div className='top-gogers'>
-      <div className='gogers-title'>
+    <div className='top-users'>
+      <div className='users-title'>
         <h1>Usuarios</h1>
         <table class="tableUsuarios">
             <tr>
@@ -31,7 +31,7 @@ function TopUsers() {
             </tr>
         </table>
       </div>
-      <div className='ficha-goger'>
+      <div className='ficha-user'>
         {users.map((singleUser, i) => {
           return <FichaUsers
             name={singleUser.name}

@@ -3,8 +3,8 @@ import "./FichaUsers.css";
 
 function FichaUsers(props) {
   return (
-    <div className="gogers">
-      <div className="ficha-goger">
+    <div className="users">
+      <div className="ficha-user">
         <table class="table">
           <tr>
             <th>{props.name}</th>

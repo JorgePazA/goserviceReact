@@ -5,7 +5,7 @@ import './UsersContent.css'
 
 function UsersContent() {
     return (
-        <div className='gogers-content'>
+        <div className='users-content'>
             <SideBar />
             <TopUsers />
         </div>

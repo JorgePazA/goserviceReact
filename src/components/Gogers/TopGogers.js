@@ -21,7 +21,7 @@ function TopGogers() {
 
   return (
     <div className='top-gogers'>
-      <div className='gogers-title'>
+      <div className='gogers-title-page'>
         <h1>Gogers</h1>
       </div>
       <div className='ficha-goger'>
