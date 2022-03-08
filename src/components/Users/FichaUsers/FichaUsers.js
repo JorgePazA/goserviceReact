@@ -3,7 +3,7 @@ import "./FichaUsers.css";
 
 function FichaUsers(props) {
   return (
-    <div className="users">
+    <div className="users usersTable">
       <div className="ficha-user">
         <table class="table">
           <tr>
