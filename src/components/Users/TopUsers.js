@@ -24,11 +24,11 @@ function TopUsers() {
       <div className='users-title'>
         <h1>Usuarios</h1>
         <table class="tableUsuarios">
-            <tr>
-                <th>Nombre</th>
-                <th>Correo</th>
-                <th>URL Detalle</th>
-            </tr>
+          <tr>
+            <th className='table-title-name'>Nombre</th>
+            <th className='table-title-email'>Correo</th>
+            <th className='table-title-url'>URL Detalle</th>
+          </tr>
         </table>
       </div>
       <div className='ficha-user'>

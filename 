@@ -1,0 +1,65 @@
+[33mcommit c3d0569dd3baca3c4fe7d48f17fafb80ea4c3ce4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Mon Mar 7 18:43:30 2022 -0500
+
+    Agregando estilos a dashboard Gogers
+
+[33mcommit 8550f476574cb790cc88cd432973f54b42030cf3[m
+Author: JorgePazA <jorgepaz1993@gmail.com>
+Date:   Mon Mar 7 17:04:14 2022 -0500
+
+    Se agrega Componente de Usuarios y algunos estilos
+
+[33mcommit f0df3e5afaef9589189c1c59fa9a93748223ff6d[m
+Author: juannc90 <juanc.ladinog@gmail.com>
+Date:   Sun Mar 6 16:51:21 2022 -0500
+
+    Se ajustan links de Métricas y Gogers
+
+[33mcommit 5b22f3fbd7efeca1a5fb842d28cdddc33361a6d0[m
+Author: JorgePazA <jorgepaz1993@gmail.com>
+Date:   Sun Mar 6 13:28:45 2022 -0500
+
+    Implementacion de links
+
+[33mcommit 6b21b28bbe31ff99e12713880a5ba10fe90bcd1a[m
+Author: JorgePazA <jorgepaz1993@gmail.com>
+Date:   Fri Mar 4 15:15:57 2022 -0500
+
+    Estilos DashBoard
+
+[33mcommit b9a5a7a553062cba0e13aa2681626c92fced9cbe[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Thu Mar 3 17:29:51 2022 -0500
+
+    Se agregan paneles al dashboard y sus estilos
+
+[33mcommit f71f8cd6f7afe4d5d21b326ebac98731103fadc2[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Wed Mar 2 14:46:30 2022 -0500
+
+    Archivo faltante en el anterior push
+
+[33mcommit d2cf5c275983c889d38930ac5091343a2df23112[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Wed Mar 2 14:44:47 2022 -0500
+
+    Completando funcionalidades faltantes de categorias e imagenes
+
+[33mcommit aad0988af3e9c39df12457ecf1482045bf1753c2[m
+Author: juannc90 <juanc.ladinog@gmail.com>
+Date:   Tue Mar 1 17:17:50 2022 -0500
+
+    Se agregan detalles en la seciión de gogers
+
+[33mcommit cecdf237fec503319bb8c8c7ba90fcdf259c95bd[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Mon Feb 28 18:03:37 2022 -0500
+
+    Primer commit de react GoService, Realizado en grupo
+
+[33mcommit 28af56631f184ca948e576c8250b1ba4370babee[m
+Author: NicogR72 <nicolasgarciar22@gmail.com>
+Date:   Mon Feb 28 09:38:59 2022 -0500
+
+    Initialize project using Create React App

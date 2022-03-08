@@ -1,20 +1,34 @@
 .users-title {
-    font-size: 24px;
-    text-align: center;
-    padding: 0px;
-    color: #14213d;
-  }
+  font-size: 24px;
+  text-align: center;
+  padding: 0px;
+  color: #14213d;
+}
 
-  .tableUsuarios {
-    width: 100%;
-    margin-bottom: 10px;
-    color: #fca311;
-  }
-  
-  th {
-    width: 80%;
-    text-align: center;
-    border: 1px solid #fca311;
-    background-color: #14213d;
-    height: 30px;
-  }
+.tableUsuarios {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #fca311;
+  margin-left: 15px;
+}
+
+th {
+  width: 80%;
+  text-align: center;
+  border: 1px solid #fca311;
+  background-color: #14213d;
+  height: 30px;
+}
+
+.table-title-name {
+  width: 150px;
+}
+.table-title-email {
+  width: 140px;
+}
+.table-title-url {
+  width: 300px;
+}
+.ficha-user th {
+  font-weight: normal;
+}

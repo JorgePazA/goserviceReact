@@ -5,11 +5,16 @@
   color: #fca311;
 }
 th,
-.table tr th{
+.table tr th {
   width: 25%;
   text-align: center;
   border: 1px solid #fca311;
+  border-radius: 15px;
   background-color: #14213d;
   height: 30px;
   color: aliceblue;
+}
+
+.users {
+  background-color: #d5d5da;
 }
